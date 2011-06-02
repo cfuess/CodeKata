@@ -1,6 +1,6 @@
 using System;
+using ClassLibrary1;
 using Machine.Specifications;
-using CodeKata;
 
 namespace CodeKataSpecs
 {
@@ -45,6 +45,14 @@ namespace CodeKataSpecs
         sum = calc.add("11,2,2,1,1");
         sum.ShouldEqual<int>(17);
       };
+
+    private It should_return_allow_line_feed_charaters =
+      () =>
+      {
+        sum = calc.add("1\n2,3");
+        sum.ShouldEqual<int>(6);
+      };
+
     private static int sum;
     private static Calculator calc;
   }
