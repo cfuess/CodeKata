@@ -1,0 +1,92 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:Class1.cs" caret="166" fromTop="11" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:Class1Specs.cs" caret="293" fromTop="15" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:ICalculator.cs" caret="58" fromTop="2" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="427" fromTop="26" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="304" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:Class1.cs" caret="0" fromTop="11" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:Class1Specs.cs" caret="306" fromTop="15" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="0" fromTop="1" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:ICalculator.cs" caret="73" fromTop="4" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="421" fromTop="8" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="421" fromTop="8" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="421" fromTop="12" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="1065" fromTop="29" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="131" fromTop="6" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="421" fromTop="15" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="391" fromTop="17" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="171" fromTop="8" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="183" fromTop="10" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="412" fromTop="23" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="255" fromTop="13" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="346" fromTop="18" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="665" fromTop="33" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="651" fromTop="31" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="991" fromTop="32" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="883" fromTop="27" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="979" fromTop="31" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="0" />
+      <Item value="int" priority="4" />
+      <Item value="string" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="Calculator`0" priority="6" />
+      <Item value="new" priority="1" />
+      <Item value="Calculator" priority="0" />
+      <Item value="ICalculator`0" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="private" priority="1" />
+      <Item value="if" priority="1" />
+      <Item value="numbers" priority="3" />
+      <Item value="Calulator" priority="1" />
+      <Item value="calc" priority="0" />
+      <Item value="bec" priority="0" />
+      <Item value="est" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="System" priority="1" />
+      <Item value="nums" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="sum" priority="1" />
+      <Item value="s" priority="1" />
+      <Item value="as" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClassLibrary1.Calculator">
+      <Item value="ShouldEqual`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+      <Item value="ToCharArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
