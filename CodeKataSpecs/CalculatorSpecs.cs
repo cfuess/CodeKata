@@ -1,5 +1,5 @@
 using System;
-using ClassLibrary1;
+using CodeKata;
 using Machine.Specifications;
 
 namespace CodeKataSpecs
@@ -53,6 +53,13 @@ namespace CodeKataSpecs
         sum.ShouldEqual<int>(6);
       };
 
+    private It should_not_error_when_line_feed_charaters_is_the_last_term =
+      () =>
+      {
+        sum = calc.add("2,1\n");
+        sum.ShouldEqual<int>(3);
+      }; 
+    
     private static int sum;
     private static Calculator calc;
   }

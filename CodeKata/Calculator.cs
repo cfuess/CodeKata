@@ -12,22 +12,17 @@ namespace CodeKata
       }
 
       int sum;
-      //string[] nums;
-      var nums = new List<string[]>();
-      var splitchars = new List<char[]>();
 
-      splitchars.Add(",".ToCharArray());
-      splitchars.Add("\n".ToCharArray());
+      string[] nums;
+      char[] delims = new char[2];
 
+      delims[0] = ',';
+      delims[1] = '\n';
 
       //"1\n2,3"
 
       sum = 0;
-      //nums = numbers.Split(splitchars);
-      foreach (var s in splitchars)
-      {
-        nums.Add(numbers.Split(s));
-      }
+      nums = numbers.Split(delims);
 
       foreach (var s in nums)
       {
