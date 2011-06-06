@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace CodeKata
@@ -14,6 +15,7 @@ namespace CodeKata
       int sum;
 
       string[] nums;
+
       char[] delims = new char[2];
 
       delims[0] = ',';
@@ -26,9 +28,11 @@ namespace CodeKata
 
       foreach (var s in nums)
       {
-        sum = sum + int.Parse(s);
+
+        if (!String.IsNullOrEmpty(s))
+          sum = sum + int.Parse(s);
       }
-        
+  
       return sum;
 
     }

@@ -8,10 +8,22 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="0" fromTop="0" />
-      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="225" fromTop="10" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="513" fromTop="25" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="1400" fromTop="37" />
     </RecentFiles>
-    <RecentEdits />
+    <RecentEdits>
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="15" fromTop="1" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="419" fromTop="26" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="419" fromTop="31" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="419" fromTop="25" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="344" fromTop="21" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="341" fromTop="20" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="419" fromTop="28" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="449" fromTop="21" />
+      <File id="454C6761-616F-4A3F-9846-754FE626F7E4/f:Calculator.cs" caret="241" fromTop="10" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="1335" fromTop="33" />
+      <File id="1537B7A4-550D-4061-A025-D7DD00950AD3/f:CalculatorSpecs.cs" caret="1310" fromTop="30" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -23,4 +35,12 @@
     <NUnitInstallDir>C:\Program Files\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ToString`0" priority="3" />
+      <Item value="string" priority="1" />
+      <Item value="char" priority="1" />
+      <Item value="new" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
