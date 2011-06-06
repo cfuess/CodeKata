@@ -3,12 +3,14 @@ using System.Collections.Generic;
 
 namespace CodeKata
 {
-  public class Calculator 
+  public class Calculator
   {
     public int add(string numbers)
     {
+      const string custom_delim_prefix = "\\";
+      
       if (numbers == string.Empty)
-      {      
+      {
         return 0;
       }
 
@@ -18,10 +20,17 @@ namespace CodeKata
 
       char[] delims = new char[2];
 
-      delims[0] = ',';
+      nums = numbers.Split('\n');
+      if (LeftRightMid.Left(nums[0], 2) == custom_delim_prefix)
+      {
+        char newDelim = nums[0].Replace(custom_delim_prefix, "").ToCharArray()[0];
+        delims[0] = newDelim;
+      }
+      else
+      {
+        delims[0] = ',';
+      }
       delims[1] = '\n';
-
-      //"1\n2,3"
 
       sum = 0;
       nums = numbers.Split(delims);
@@ -32,7 +41,7 @@ namespace CodeKata
         if (!String.IsNullOrEmpty(s))
           sum = sum + int.Parse(s);
       }
-  
+
       return sum;
 
     }

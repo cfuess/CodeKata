@@ -61,13 +61,13 @@ namespace CodeKataSpecs
       };
 
 
-    //private It should_allow_custom_delimiters =
-    //() =>
-    //{
-    //  //format is //[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ .
-    //  sum = calc.add("//;\n1;2");
-    //  sum.ShouldEqual<int>(3);
-    //}; 
+    private It should_allow_custom_delimiters =
+    () =>
+    {
+      //format is //[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ .
+      sum = calc.add("//;\n1;2");
+      sum.ShouldEqual<int>(3);
+    }; 
 
 
     private static int sum;
