@@ -7,7 +7,7 @@ namespace CodeKata
   {
     public int add(string numbers)
     {
-      const string custom_delim_prefix = "\\";
+      const string custom_delim_prefix = "//";
       
       if (numbers == string.Empty)
       {
@@ -21,10 +21,11 @@ namespace CodeKata
       char[] delims = new char[2];
 
       nums = numbers.Split('\n');
-      if (LeftRightMid.Left(nums[0], 2) == custom_delim_prefix)
+      if (numbers.Length > 5 && LeftRightMid.Left(nums[0], 2) == custom_delim_prefix)
       {
         char newDelim = nums[0].Replace(custom_delim_prefix, "").ToCharArray()[0];
         delims[0] = newDelim;
+        numbers = numbers.Replace(nums[0], "");
       }
       else
       {
